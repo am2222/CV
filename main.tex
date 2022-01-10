@@ -1,0 +1,247 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+
+\usepackage{fontspec}
+
+\newfontface\lserif{Liberation Serif}
+\newcommand{\Csh}{C{\lserif\#}}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Majid} % Your first name
+\familyname{Hojati} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{Updated: July 2021}{728 Butternut Ave, Waterloo, ON, CA}
+\mobile{(+151) 96 309 717}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{mhojati@uwaterloo.ca}
+\homepage{https://www.linkedin.com/in/majidhojati}{linkedin/majidhojati} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+\extrainfo{\url{https://am2222.github.io}}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+\quote{ \Large Geospatial Subject Matter Expert }
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2019--Current}{Ph.D Candidate}{Spatial Data sharing}{}{}{	Department of Geography \& Environmental Studies, Wilfrid Laurier University, Waterloo, Ontario, Canada}  % Arguments not required can be left empty
+
+\cventry{2013--2015}{Masters in GIS and Remote Sensing }{}{}{}{Department of Remote Sensing \& GIS, University of Tehran, Tehran, Iran }
+\cventry{2008--2013}{Urban Studies}{}{}{}{Department of Architecture and Urban Studies, Art University of Isfahan, Isfahan, Iran}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\cventry{Jan 2020 - now}{Research Assistant}{Wilfrid Laurier University}{\small Canada}{}{Online GIS Application development for Big Data Analytic environment   }
+{}
+
+\cventry{Jan 2019 - Jan 2020}{Teacher Assistant}{Wilfrid Laurier University}{\small Canada}{}{GG368 Computer Applications in Geography, GG369 Geographical Information Systems, GG273 Geographies of Health and Disease, Course Lecturer: GESC 258 Geographical Research Methods    }
+{}
+
+
+\cventry{Jan 2015 - 2019}{Co-Founder \& Geospatial Expert }{Giti Faraz Pishro Startup}{\small Iran}{}{Developing Online Gis-based natural gas pipeline management systems and Indoor mapping solutions using beacon technology }
+{}
+
+\cventry{Feb -- Dec 2016}{GIS Consultant \& Developer}{Nosaz Mohaseb}{\small Isfahan}{}{Developing GIS-Based tools for municipalities, Mapping using Drone images, GIS data collection consultant }
+{}
+
+\cventry{Feb 2014 --Jan 2015}{Self Employed}{}{\small Isfahan}{}{Agricultural Land management application developer and GIS data collection consultant  }
+{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}{Ordered from high to low}
+
+
+\cvitem{Programming Languages}{ Javascript (Nodejs, Reactjs, Expressjs),  HTML/CSS, Python, Java (Android), R, UML.}
+\cvitem{Spatial Databases}{PostgreSQL (Postgis), Sqlite (Spatialite), MySQL,  SQL Server. }
+\cvitem{GIS Software and Tools}{Esri Products (ArcGIS pro, ArcMap and etc.), QGIS, ENVI, Airmod, Autodesk Autocad, Autodesk Civil3d, Erdas, FME}
+\cvitem{GIS Servers}{Geoserver, ArcGIS Server, REST API's}
+\cvitem{GIS Libraries}{Leafletjs, OpenLayers, GeoDjango, Cesiumjs, SharpMap, Dot Spatial }
+\cvitem{GIS Models \& etc.}{CA Models ,Sub-pixel attraction model, Neural Networks, SDSS (AHP, ANP, VICOR, Fuzzy), Mbtile, PBF, MODIS, Landsat and Sentinel 2 data}
+\cvitem{Systems and Tools}{GNU/Linux \& Windows Servers,  Trimble Sketchup \& Vray Rendering, Photoshop, Online CMS (wordpress, Jomla), Git, CI \& CD}
+
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{2021}{Cold Regions Science Observatory}{A Scientific paper geo-Observatory for the cold regions}{Full Stack development}{}{Nodejs, React JS, Postgresql, Demo: \url{observatory.coldregions.ca}}
+
+\cventry{2020}{WhatsInStock.ca}{A simple shopping utility for the COVID-19 Pandemic}{Full Stack developer}{}{Nodejs, Postgresql,Demo: \url{WhatsInStock.ca} or \url{https://whatsinstock.herokuapp.com}}
+
+\cventry{}{dggslayer R package}{IDEAS DGGS rendering package render spatial data.}{Full Stack developer}{}{\url{https://thespatiallabatlaurier.github.io/dggslayer/}}{}
+
+\cventry{}{nzdggs R package}{Manipulate and Run Analysis on Netezza Using IDEAS Model.}{Full Stack developer}{}{\url{https://thespatiallabatlaurier.github.io/nzdggs/}}{}
+
+\cventry{2018}{Natural Gas pipe management system}{Project Manager \& Head of development team}{}{}{GeoDjango, Openlayers, Postgresql, Network Analysis, VGI, Mbtiles, Demo: \url{https://www.youtube.com/watch?v=xRZ0uWg3sSQ}}
+{}
+\cventry{2016}{Chadegan Cadastre Project}{GIS Data Capture Specialist }{}{Drone Imagery collection \& map generation}{}{ }{}{}{}
+
+
+\cventry{2014}{Semirum’s Cadastre Project}{Project Manager \& GIS Data Capture Specialist, Developer, Data Analyst }{ }{Dot Spatial, Sql Server,.Net,  Demo: \url{http://www.aparat.com/v/JreDK} }
+{}
+
+%----------------------------------------------------------------------------------------
+%	Awards SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards \& Scholarships}
+\cvitem{2020}{ ESRI Canada Scholarship}
+\cvitem{2019}{ MS2Discovery Scholarship}
+\cvitem{2015}{ 1st position in SMPR mobile AR contest for using location based AR android application for estimation of priority of aid after earthquake.}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+\cvitem{GScholar}{\url{https://scholar.google.com/citations?user=QNGs_a4AAAAJ}}\par
+\cvitem{2021}{\small{Hojati, M., Robertson, C., Roberts, S., and Chaudhuri, C., 2021. GIScience research challenges for realizing Discrete Global Grid Systems as a Digital Earth. Big Earth Data.,\url{Accepted, under process}, 2021.}}
+
+\cvitem{2021}{\small{Hojati, M., Farmer, C., Feick, R., and Robertson, C., 2021. Decentralized geoprivacy: leveraging social trust on the distributed web. International Journal of Geographical Information Science.,\url{http://dx.doi.org/10.1080/13658816.2021.1931236}, 2021.}}
+
+\cvitem{2020}{\small{Hojati, M. and Robertson, C.: Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling, AGILE GIScience Ser., 1, 6, \url{https://doi.org/10.5194/agile-giss-1-6-2020}, 2020.}}
+
+\cvitem{2020}{\small{Colin Robertson, Chiranjib Chaudhuri, Majid Hojati, Steven A. Roberts,An integrated environmental analytics system (IDEAS) based on a DGGS,ISPRS Journal of Photogrammetry and Remote Sensing,Volume 162,2020,Pages 214-228,ISSN 0924-2716, \url{https://doi.org/10.1016/j.isprsjprs.2020.02.009}}}
+
+\cvitem{2019}{\small{Mokarram, M., Hojati, M. \& Saber, A. Application of Dempster–Shafer theory and fuzzy analytic hierarchy process for evaluating the effects of geological formation units on groundwater quality. Environ Sci Pollut Res 26, 19352–19364 (2019). \url{https://doi.org/10.1007/s11356-019-05262-3}}}
+
+\cvitem{2018}{\small{Marzieh Mokarram, Majid Hojati, Landform classification using a sub-pixel spatial attraction model to increase spatial resolution of digital elevation model (DEM), The Egyptian Journal of Remote Sensing and Space Science, Available online 26 November 2016, ISSN 1110-9823, \url{http://dx.doi.org/10.1016/j.ejrs.2016.11.005}.}}
+
+\cvitem{2017}{\small{Hojati, M., Boolorani, A.D. Using radiative transfer models in order to estimate PM10 concentration in south of Iran using MODIS images. Int. J. Environ. Sci. Technol. 16, 1405–1420 (2019). \url{https://doi.org/10.1007/s13762-017-1591-9}}}
+
+\cvitem{2017}{\small{Marzieh Mokarram, Majid Hojati, Using ordered weight averaging (OWA) aggregation for multi-criteria soil fertility evaluation by GIS (case study: southeast Iran), Computers and Electronics in Agriculture, Volume 132, January 2017, Pages 1-13, ISSN 0168-1699, \url{http://dx.doi.org/10.1016/j.compag.2016.11.005}.}}
+
+\cvitem{2017}{\small{Marzieh Mokarram, Majid Hojati, Morphometric analysis of stream as one of resources for agricultural lands irrigation using high spatial resolution of digital elevation model (DEM), Computers and Electronics in Agriculture, Volume 142, Part A, November 2017, Pages 190–200,\url{https://doi.org/10.1016/j.compag.2017.09.001} }}
+
+\cvitem{2016}{\small{Mokarram, Marzieh; Boloorani, Ali Darvishi; Hojati, Majid,Relationship between land cover and vegetation indices. Case study: Eghlid plain, Fars province, Iran.,European journal of geography,7,2,48-60,2016,  }}
+
+\cvitem{2016}{\small{Mokarram, Marzieh; Hojati, Majid; ,Comparison of Landform Classifications of Elevation, Slope, Relief and Curvature with Topographic Position Index in the South of Bojnoord, ECOPERSIA,4,2,1343-1359,2016, \url{http://ecopersia.modares.ac.ir/article-24-11829-en.html} }}
+
+\cvitem{2015}{\small{Mokarram, Marzieh; Hojati, Majid;, Comparison of digital elevation model (DEM) and aerial photographs for drainage, Modelling Earth Systems and Environment,1,4,1-6,2015, Springer, \url{https://doi.org/10.1007/s40808-015-0050-1} }}
+
+\cvitem{2015}{\small{Mokarram, Marzieh; Hojjati, Majid; Roshan, Gholamreza; Negahban, Saeed; ,Modeling the behavior of Vegetation Indices in the salt dome of Korsia in North-East of Darab, Fars, Iran,Modeling Earth Systems and Environment,1,3,1-9,2015,Springer, \url{https://doi.org/10.1007/s40808-015-0029-y} }}
+%----------------------------------------------------------------------------------------
+%	Conference Presentaions
+%----------------------------------------------------------------------------------------
+
+\section{Conferences}
+\cvitem{2021}{Hojati, M., Robertson, C., 2020, Cold Regions Science Observatory,A Scientific paper geo-Observatory for the cold regions, 2021 Annual CRRC Days Conference, 26-27 Nov 2021, Online presentation.}
+
+\cvitem{2020}{Hojati, M., Robertson, C., 2020, Toward distributed data sharing, 2020 Annual CRRC Days Conference, 26-27 Nov 2020, Online presentation.}
+
+\cvitem{2020}{Hojati, M., Robertson, C. (2020). A distributed approach on spatial data sharing. Global Water Futures Annual Science Meeting - GWF-2020. May 11- May 13, Online poster.}
+
+\cvitem{2019}{Hojati, M., Chaudhuri, C.,Robertson, C. (2019). Implementation cellular automata-based forest fire transport model on big-data architecture using high resolution hexagonal discrete global grid system. AMMCS-2019. August 18, Waterloo, ON, Canada.}
+
+
+\cvitem{2019}{Hojati, M., Robertson, C. (2019).Investigation of possible Discrete Global Grid applications in geospatial analysis. CAG-2019. May 27 - May 31, Winnipeg, MB, Canada.}
+
+\cvitem{2019}{Hojati, M., Robertson, C., Feick, R. (2019).Uncertainty-based representation of object-based spatial phenomena using Discrete Global Grid Systems data model. Global Water Futures Annual Science Meeting - GWF-2019. May 14 - May 17, Saskatoon, SK, Canada.}
+
+\cvitem{2013}{Positioning of parking lots in Tehran using AHP and ANP Models, 2013, 14th International Conference On Traffic and Transportation, In Persian}
+
+\cvitem{2013}{Analysis of land use change using satellite imagery and field studies (Case Study: Isfahan), The 4th International Conference on Environmental Challenges and Dendrochronology}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{small}
+\cvitemwithcomment{Persian}{Mother tongue}{}
+\cvitemwithcomment{English}{Listening Reading Writing Speaking}{IELTS 7.5- 2020}
+\cvitemwithcomment{Arabic}{Reading}{ }
+\end{small}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests }
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvitem{Business} {Geospatial Startups \& Entrepreneurship} 
+\cvitem{Sport} {Tennis, Biking } 
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
